@@ -1,0 +1,42 @@
+Good morning sir,
+It is 11 A M, Wednesday, May 20th,
+
+the current weather in newton is mostly cloudy and a fair air quality,
+the temperature is currently 60 degrees fairenheight with a real feel of 70,
+
+the international markets have went up/down x points since ive last checked sir
+
+'I hope you slept well Sir,'
+
+'''
+sir, why you need a wakeup call this late in the day is beyond me,  
+
+everyone has been up for at least 4 hours now
+'''
+
+'might i suggest a greessy breakfast to cure the hangover sir'
+
+
+
+https://www.accuweather.com/en/us/augusta/07822/current-weather/2174793
+https://www.accuweather.com/en/us/atlantic-city/08401/current-weather/329552
+https://www.accuweather.com/en/us/newton/07860/daily-weather-forecast/334489?day=1
+
+
+?day=1 - line 2065 - 2079
+
+
+334489 - line 2050 - 2067, 2084 - 2101
+
+
+
+
+'''
+x = 0
+for i in lst:
+    if '\n\t\t\t\t65°' in i:
+        if 'to partly cloudy' not in i:
+            x = lst.index(i)
+print(str(x) + '\n')
+'''
+
