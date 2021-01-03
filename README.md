@@ -28,3 +28,8 @@ bash (shell scripting)
 * To check if the crontab commands saved enter the command `crontab-l`
 
 * More information on crontab here https://crontab.guru
+
+
+### Link To Survey
+
+https://forms.gle/y7dKuC9MQc3BTmv79
