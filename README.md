@@ -29,6 +29,8 @@ bash (shell scripting)
 
 * More information on crontab here https://crontab.guru
 
+### Important you will need an internet connection for some app functions
+
 
 ### Link To Survey
 
