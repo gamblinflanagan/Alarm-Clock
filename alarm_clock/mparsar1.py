@@ -2,8 +2,8 @@ import sys
 import xml.dom.minidom
 from xml.dom.minidom import parse
 
-#Mostly, Cloudy, Pleasent, Beautiful, Patchy
-weatherlst = ['°' , 'RealFeel®', '%', 'M', 'S', 'C', 'P', 'B', 'T']
+#Mostly, Cloudy, Pleasent, Beautiful, Patchy, Sunny
+weatherlst = ['°' , 'RealFeel®', '%', 'Mostly', 'Sunny', 'Cloudy', 'Patchy', 'Storm']
 lst = []
 lst_final = []
 #testlst = []
@@ -26,15 +26,15 @@ for div1 in elements[0].getElementsByTagName('div'):
                                             lst.append(x)#data.append(node.nodeValue)    
                                             #continue
                            
-#y = lst                  
-#print(y)
-#print('\n')
+y = lst                  
+print(y)
+print('\n')
 try:
                                
+    lst_final.append(lst[0])
     lst_final.append(lst[1])
-    lst_final.append(lst[2])
-    lst_final.append(lst[4])
-    lst_final.append(lst[8])
+    lst_final.append(lst[3])
+    lst_final.append(lst[5])
     
 
     inf = open("location.txt", "r")
@@ -48,7 +48,7 @@ except:
     st = "Sir, you have my sinseerest apologies, as i am currently unable to obtain the weather"
 
 
-#print(str(lst_final)+'\n')
+print(str(lst_final)+'\n')
 
 outf = open("morning_main2.txt", "w+")
 outf.write(str(st))
