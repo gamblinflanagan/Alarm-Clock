@@ -3,7 +3,7 @@ import xml.dom.minidom
 from xml.dom.minidom import parse
 
 #Mostly, Cloudy, Pleasent, Beautiful, Patchy, Sunny
-weatherlst = ['°' , 'RealFeel®', '%', 'Mostly', 'Sunny', 'Cloudy', 'Patchy', 'Storm']
+weatherlst = ['°' , 'RealFeel®', '%', 'Mostly', 'Sunny', 'Cloudy', 'Patchy', 'Storm', 'Snow', 'Rain']
 lst = []
 lst_final = []
 #testlst = []
