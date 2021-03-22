@@ -24,10 +24,10 @@ do
 done
 sleep 5s
 
-python mparsar1.py index.xhtml #334489.xhtml
+python3 mparsar1.py index.xhtml #334489.xhtml
 #python mparsar2.py 334489?day=1.xhtml
 
-python morning.py
+python3 morning.py
 
 
 rm index.html #334489
