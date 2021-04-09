@@ -34,7 +34,7 @@ try:
     lst_final.append(lst[0])
     lst_final.append(lst[1])
     lst_final.append(lst[3])
-    lst_final.append(lst[5])
+    lst_final.append(lst[4])
     
 
     inf = open("location.txt", "r")
@@ -42,8 +42,7 @@ try:
     inf.close()
     
     
-    
-    st = "currently in " + location + " it is " + lst_final[0][-3:-1] + " degrees real feel " + lst_final[1][-3:-1] + " degrees and " + lst_final[2] + " with " + lst_final[3][0:2] + " percent humidity, "    
+    st = "currently in " + location + " it is " + lst_final[0][-3:-1] + " degrees real feel " + lst_final[1][-3:-1] + " degrees and " + lst_final[2] + " with " + lst_final[3] + "  humidity, "    
 except:
     st = "Sir, you have my sinseerest apologies, as i am currently unable to obtain the weather"
 
